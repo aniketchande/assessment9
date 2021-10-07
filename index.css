@@ -1,0 +1,145 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-attachment: fixed;
+}
+.bird{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 0px;
+
+    margin-right: 50px;
+    width: 100%;
+    
+    
+}
+.btn1{
+    margin-left: 30px;
+
+}
+.btn2{
+    margin-left: 30px;
+}
+.btn3{
+    margin-left: 30px;
+} 
+.icon{
+    margin-left: 30px;
+}
+
+.sahara{
+    width: 600px;
+    margin-left: 10px;
+}
+.sahara1{
+    margin-top: 110px;
+    padding: 20px;
+}
+span{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+p {
+    color: white;
+    font-size: 16px;
+}
+button {
+    padding: 10px;
+    width: 184px;
+    height: 46px;
+    background: rgb(16, 157, 212);
+    border: none;
+    border-radius: 23px;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    flex-wrap: wrap;
+    margin-left: 789px;
+    margin-top: -287px;
+    justify-content: space-evenly
+}
+.western-desert{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./pic-1.png);
+    background-size: cover;
+    transition: transform 0.2s ease;
+    padding: 10px 10px;
+}
+.western-desert:hover{
+    transform: translateY(-15px)
+}
+.ai-bagawat {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./pic-2.png);
+    background-size: cover;
+    margin-bottom: 20px;
+    transition: transform .2s ease;
+    padding: 10px 10px;
+}
+.ai-bagawat:hover{
+    transform: translateY(-15px)
+}
+.pyramid {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./pic-3.png);
+    background-size: cover;
+    transition: transform .2s ease;
+    padding: 10px 10px;
+}
+.pyramid:hover{
+    transform: translateY(-15px)
+}
+.kalahari-desert {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    background: url(./pic-4.png);
+    background-size: cover;
+    transition: transform .2s ease;
+    padding: 10px 10px;
+}
+.kalahari-desert:hover{
+    transform: translateY(-15px)
+}
+   
+
+@media screen and (min-width:300px) and (max-width:800px) {
+    .parent{
+        margin-left: 10px;
+    }
+    .sahara {
+        margin-top: 45px;
+        margin-left: 1px;
+    }
+    .bird{
+        margin-top: 50px;
+    }
+    .sahara1{
+        margin-top: 4px;
+    }
+    .card-flex {
+        margin-left: -44px;
+        margin-top: 10px;
+    }
+}
